@@ -7,7 +7,7 @@ import Preview from "./Preview";
 
 import "./styles.css";
 
-const defaultValue = `# Sample
+const defaultValue = `#
 
 \`\`\`abc
 X: 1
@@ -36,7 +36,7 @@ export default function App() {
       return;
     }
     event.notes.forEach((n) => {
-      synth.triggerAttackRelease(n.name, n.duration);
+      synth.triggerAttackRelease(n.name, n.duration).toDestination();
 
     });
     
@@ -50,7 +50,8 @@ export default function App() {
   return (
     <div className="App">
       {/* <Editor onEditorChange={onEditorChange} defaultValue={defaultValue} /> */}
-          <button className="button" onClick={play}>Play</button>
+           <span className="title">Sample</span>
+           <button className="button" onClick={play}>Play</button>
       <div className="preview-wrapper">
 
 
