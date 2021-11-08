@@ -16,7 +16,13 @@ body {
 .editor {
   width: 50%;
 }
-
+.button{
+  margin:0;
+  border-radius: 10px;
+  border: 1px;
+  padding: 1rem;
+  font-size: 1rem;
+}
 .preview-wrapper {
   width: 100%;
   /* padding: 2rem; */

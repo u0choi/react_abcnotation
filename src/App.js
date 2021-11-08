@@ -51,10 +51,14 @@ export default function App() {
     <div className="App">
       {/* <Editor onEditorChange={onEditorChange} defaultValue={defaultValue} /> */}
       <div className="preview-wrapper">
+
+          <button className="button" onClick={play}>Play</button>
+
+
         <Preview value={value} onEvent={onEvent} isPlaying={isPlaying} />
-        <footer>
+        {/* <footer>
           <button onClick={play}>Play</button>
-        </footer>
+        </footer> */}
       </div>
     </div>
   );
