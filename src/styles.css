@@ -9,7 +9,7 @@ body {
 
 .App {
   font-family: sans-serif;
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
 }
 
