@@ -19,7 +19,7 @@ body {
 
 .preview-wrapper {
   width: 100%;
-  padding: 2rem;
+  /* padding: 2rem; */
   height: 100vh;
   overflow: scroll;
   display: flex;

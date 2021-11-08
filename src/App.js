@@ -13,8 +13,10 @@ const defaultValue = `# Sample
 X: 1
 M: 6/4
 K: Am
-|Ccea|[^Gb],ecb|[Gc']ecc'|[^F^f]dA^f|[eF]cAc-|cecA|[B,GB][A,Ac][A,Ac]4|
-|Acea|[^Gb],ecb|[Gc']ecc'|[^F^f]dA^f|[eF]cAc-|cecA|[B,GB][A,Ac][A,Ac]4|
+|Ccea|[^Gb],ecb|[Gc']ecc'|[^F^f]dA^f|
+[eF]cAc-|cecA|[B,GB][A,Ac][A,Ac]4|
+|Acea|[^Gb],ecb|[Gc']ecc'|[^F^f]dA^f|
+[eF]cAc-|cecA|[B,GB][A,Ac][A,Ac]4|
 [B,GB][^Gb][^Gb]|Acea|cccd
 \`\`\``;
 
