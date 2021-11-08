@@ -17,7 +17,7 @@ K: Am
 [eF]cAc-|cecA|[B,GB][A,Ac][A,Ac]4|
 |Acea|[^Gb],ecb|[Gc']ecc'|[^F^f]dA^f|
 [eF]cAc-|cecA|[B,GB][A,Ac][A,Ac]4|
-[B,GB][^Gb][^Gb]|Acea|cccd
+[B,GB][^Gb][^Gb]|Acea|cccd|[Gc']ecc'|
 \`\`\``;
 
 const synth = new Tone.PolySynth(Tone.Synth).toDestination();
@@ -51,7 +51,7 @@ export default function App() {
     <div className="App">
       {/* <Editor onEditorChange={onEditorChange} defaultValue={defaultValue} /> */}
            <span className="title">Sample</span>
-           <button className="button" onClick={play}>Play</button>
+           <button className="button" onClick={play}>►Play</button>
       <div className="preview-wrapper">
 
 
